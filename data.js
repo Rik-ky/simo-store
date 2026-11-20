@@ -1,0 +1,36 @@
+// ====== SIMO store data ======
+window.SIMO = {
+  whatsapp: "2347038500490", // +234 703 850 0490
+  currency: "₦",
+  artworks: [
+    { slug: "august-meeting", name: "August Meeting", year: 2026, color: "#3f6797",
+      blurb: "Gele high, hands folded, red bag waiting. The quiet confidence of the women who run the August meeting." },
+    { slug: "heavy-is-the-head", name: "Heavy Is the Head", year: 2026, color: "#4b5a9c",
+      blurb: "A crown of cowries, eyes lowered. A portrait about the weight that comes with what we carry proudly." },
+    { slug: "local-hair-braider", name: "Local Hair Braider", year: 2026, color: "#b49a62",
+      blurb: "A comb, a plastic chair, an afternoon. A tribute to the neighbourhood braider and the stories shared between plaits." },
+    { slug: "obioma", name: "Obioma", year: 2026, color: "#6d6b6c",
+      blurb: "The tailor carries his trade on his head. Obioma: a good heart, working hands, steady steps." },
+    { slug: "agony", name: "Agony", year: 2026, color: "#38d3e8",
+      blurb: "Burning, melting, crying through it. Raw emotion rendered in fire orange against electric blue." },
+    { slug: "a-true-mother", name: "A True Mother", year: 2026, color: "#d1b04d",
+      blurb: "Tray on her head, child on her back, a halo she never asked for. For every mother who hawks and holds the world." },
+  ],
+  products: [
+    { slug: "sticker",    name: "Sticker",       desc: "Die-cut matte vinyl sticker. Waterproof, scratch-resistant. Approx. 8 cm.", price: 2500 },
+    { slug: "keychain",   name: "Keychain",      desc: "Double-sided clear acrylic charm on a sturdy metal ring. Approx. 6 cm.", price: 5000 },
+    { slug: "patch",      name: "Patch",         desc: "Embroidered iron-on patch with merrowed border. Approx. 8 cm.", price: 4500 },
+    { slug: "notepad",    name: "Notepad",       desc: "A5 notepad, 80 dotted pages, artwork printed cover.", price: 6000 },
+    { slug: "phone-case", name: "Phone Case",    desc: "Slim glossy hard case. Tell us your phone model at checkout.", price: 12000,
+      options: { label: "Phone model", type: "text", placeholder: "e.g. iPhone 15 Pro, Samsung S24" } },
+    { slug: "calendar",   name: "Calendar",      desc: "2027 wall calendar, 12 months, heavy matte paper. Hangs on one nail.", price: 15000 },
+    { slug: "tote-bag",   name: "Tote Bag",      desc: "Heavy natural canvas tote. Fits a laptop, a market run and then some.", price: 12000 },
+    { slug: "t-shirt",    name: "T-Shirt",       desc: "100% cotton, regular fit, front print.", price: 18000,
+      options: { label: "Size", type: "select", values: ["S", "M", "L", "XL", "XXL"] } },
+    { slug: "hoodie",     name: "Hoodie",        desc: "Heavyweight fleece hoodie, front print, kangaroo pocket.", price: 35000,
+      options: { label: "Size", type: "select", values: ["S", "M", "L", "XL", "XXL"] } },
+    { slug: "mug",        name: "Mug",           desc: "11 oz white ceramic mug. Dishwasher safe.", price: 10000 },
+    { slug: "framed-art", name: "Framed Art",    desc: "Archival giclée print, thin black frame, white mat. Ready to hang.", price: 45000,
+      options: { label: "Size", type: "select", values: ["A4", "A3 (+₦15,000)", "A2 (+₦35,000)"], surcharge: [0, 15000, 35000] } },
+  ],
+};

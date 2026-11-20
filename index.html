@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SIMO® — Original Art & Everyday Objects</title>
+  <meta name="description" content="SIMO — original artworks turned into stickers, tees, hoodies, mugs, prints and more. Order straight to the artist on WhatsApp." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="hdr" id="hdr">
+    <div class="hdr__in">
+      <button class="hdr__burger" id="burger" aria-label="Toggle menu"><span></span><span></span></button>
+      <a href="#/" class="logo">SIMO<sup>®</sup></a>
+      <nav class="hdr__nav" id="nav">
+        <a href="#/shop">Shop</a>
+        <a href="#/works">Works</a>
+        <a href="#/about">About</a>
+      </nav>
+      <button class="hdr__cart" id="cartBtn" aria-label="Open cart">Cart <span class="pill" id="cartCount">0</span></button>
+    </div>
+  </header>
+
+  <main id="main"></main>
+
+  <footer class="ftr">
+    <div class="ftr__grid">
+      <div>
+        <h4>Shop</h4>
+        <a href="#/shop">All products</a>
+        <a href="#/shop/t-shirt">Apparel</a>
+        <a href="#/shop/framed-art">Framed art</a>
+        <a href="#/shop/sticker">Stickers</a>
+      </div>
+      <div>
+        <h4>SIMO</h4>
+        <a href="#/about">About</a>
+        <a href="#/works">Works</a>
+      </div>
+      <div>
+        <h4>Customer</h4>
+        <a href="https://wa.me/2347038500490" target="_blank" rel="noopener">WhatsApp</a>
+        <a href="#/about">Shipping</a>
+      </div>
+      <div class="ftr__news">
+        <h4>Ordering</h4>
+        <p>Pick your objects, fill in your details, and your order lands straight in the artist's WhatsApp. That's it.</p>
+      </div>
+    </div>
+    <div class="ftr__big">SIMO<sup>®</sup></div>
+    <div class="ftr__bottom"><span>© <span id="yr"></span> SIMO. All artworks © the artist.</span><span>Made in Nigeria</span></div>
+  </footer>
+
+  <!-- Cart drawer -->
+  <div class="scrim" id="scrim"></div>
+  <aside class="drawer" id="drawer" aria-label="Your cart">
+    <div class="drawer__hd"><h3>Your cart</h3><button class="x" id="cartClose" aria-label="Close">×</button></div>
+    <div class="drawer__body" id="cartBody"></div>
+    <div class="drawer__ft" id="cartFt"></div>
+  </aside>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
